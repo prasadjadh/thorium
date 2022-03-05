@@ -24,7 +24,6 @@ router.get("/test", BookController.test)
 
 module.exports = router;
 
-module.exports = app;
 
 
 
