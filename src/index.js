@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // app.use(request.mw({attributeName:'myIp'}))
 
 
-mongoose.connect("mongodb+srv://functionup-cohort:G0Loxqc9wFEGyEeJ@cluster0.rzotr.mongodb.net/Pritesh8769811-DB?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://prasad1137:5IQmYIBLEHIAI7xz@cluster0.jra3o.mongodb.net/prasad1137", {
     useNewUrlParser: true
 })
 .then( () => console.log("MongoDb is connected"))
